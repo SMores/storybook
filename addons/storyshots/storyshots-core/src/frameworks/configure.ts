@@ -31,7 +31,7 @@ interface Output {
   requireContexts?: string[];
 }
 
-const supportedExtensions = ['ts', 'tsx', 'js', 'jsx'];
+const supportedExtensions = ['ts', 'tsx', 'js', 'jsx', 'cjs', 'mjs'];
 
 const resolveFile = (configDir: string, supportedFilenames: string[]) =>
   supportedFilenames
